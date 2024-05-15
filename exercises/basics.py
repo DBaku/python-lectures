@@ -81,13 +81,28 @@ passende Jahreszeit zurückgibt. Und zwar
 "Herbst" für die Monate September, Oktober, November und
 "Winter" für die Monate Dezember, Januar und Februar.
 '''
-def jahreszeit(monat):
-    '''
-    :type monat: int
-    :return: Jahreszeit
-    :rtype: string
-    '''
-    pass
+
+def jahreszeit_vorhersage(monat: int) -> str:
+
+        if monat in [3, 4, 5]:
+            return "Frühling"
+        elif monat in [6, 7, 8]:
+            return "Sommer"
+        elif monat in [9, 10, 11]:
+            return "Herbst"
+        elif monat in [12, 1, 2]:
+            return "Winter"
+        else:
+            return "Ungültiger Monat"
+
+# bsp
+print(jahreszeit_vorhersage(3))  # ausgabe: frühling
+print(jahreszeit_vorhersage(7))  # ausgabe: sommer
+print(jahreszeit_vorhersage(10))  # ausgabe: herbst
+print(jahreszeit_vorhersage(12))  # ausgabe: winter
+print(jahreszeit_vorhersage(15))  # ausgabe: ungpltiger monat
+
+
 
 '''
 Schreibe eine Funktion, die die Umsatzsteuer anhand des Umsatzes und des
