@@ -111,6 +111,7 @@ der Freigrenze von 17.500 EUR (für die Steuerjahre 2003-2019) bzw. 22.000 EUR
 (für die Steuerjahre ab 2020) soll die Kleinunternehmerregelung angewendet
 und keine Umsatzsteuer berechnet werden. Der Rückgabewert ist dann 0.
 '''
+    
 def umsatzsteuer(umsatz, steuerjahr = 2024):
     '''
     :param umsatz: Umsatz im Steuerjahr
