@@ -3,10 +3,19 @@ Schreibe je eine Funtion add, subtract, multiply, divide, die die
 jeweilige Grundrechenart auf die beiden übergebenen Parameter A und B
 anwendet.
 '''
-def add(a, b): pass
-# ...
-# ...
-# ...
+# def add(a, b): pass
+
+def mas (a,b):
+    return a+b 
+
+def menos (a,b):
+    return a-b
+
+def multiplicar(a,b):
+    return a*b
+
+def divido(a,b):
+    return a/b
 
 '''
 Schreibe eine Funktion, die eine Temperatur in Celsius in eine Temperatur in
