@@ -3,18 +3,18 @@ Schreibe je eine Funtion add, subtract, multiply, divide, die die
 jeweilige Grundrechenart auf die beiden übergebenen Parameter A und B
 anwendet.
 '''
-# def add(a, b): pass
+
 
 def add (a,b):
     return a+b 
 
-def sub (a,b):
+def subtract (a,b):
     return a-b
 
-def multiplicar(a,b):
+def multiply(a,b):
     return a*b
 
-def divido(a,b):
+def divide(a,b):
     return a/b
 
 '''
