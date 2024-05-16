@@ -5,10 +5,10 @@ anwendet.
 '''
 # def add(a, b): pass
 
-def mas (a,b):
+def add (a,b):
     return a+b 
 
-def menos (a,b):
+def sub (a,b):
     return a-b
 
 def multiplicar(a,b):
