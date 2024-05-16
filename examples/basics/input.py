@@ -23,3 +23,4 @@ if __name__ == '__main__':
     z = input_int('Gib mir noch eine Zahl! ')
 
     print(x, y, z)
+    daniel du fiffar
